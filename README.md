@@ -9,4 +9,4 @@ InternshipGo是本人的第一个swift工程，用于记录学习swift的点点�
 
 | tag名  		| 标题   	| 链接  |
 | ------------- |:-------------:| :-----:|
-| v0.1.1 | 开启swift之旅 | [开启swift之旅](http://0.1.1开启swift之旅.md)|
+| v0.1.1 | 开启swift之旅 | [开启swift之旅](https://github.com/zjh171/InternshipGo/blob/master/0.1.1%E5%BC%80%E5%90%AFswift%E4%B9%8B%E6%97%85.md)|
