@@ -18,7 +18,5 @@ class UserCenter: NSObject {
     
     func currentUser()->User?{
         return nil;
-//        let user = User.init();
-//        return user;
     }
 }
