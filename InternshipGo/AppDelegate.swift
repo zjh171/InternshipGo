@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
@@ -15,6 +16,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         window = UIWindow.init()
+        
+        let crashReporter = CrashReporter.sharedInstance()
+        crashReporter.enableLog(true)
+        crashReporter.installWithAppId("900015607")
+        
+        
+        NSObject.performSelector("crash", withObject: nil, afterDelay: 12.0)
+        
         self.window?.frame = UIScreen.mainScreen().bounds;
         let userCenter = UserCenter.sharedCenter;
         if(userCenter.currentUser() == nil){
